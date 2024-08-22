@@ -1,2 +1,1 @@
-# cookieclickersefossebom
-# https://prod.liveshare.vsengsaas.visualstudio.com/join?8108E500C03C5E8865AC4342E97A949E28F6
+# https://prod.liveshare.vsengsaas.visualstudio.com/join?094B9DFE27688802D7170E51903E46C2D7E8
