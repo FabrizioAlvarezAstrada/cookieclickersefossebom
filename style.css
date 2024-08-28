@@ -2,6 +2,51 @@
     user-select: none;
 }
 
+body {
+    display: flex;
+}
+
+#Lado-do-clicker {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+#informações-clicker {
+    margin-top: 20%;
+}
+
+#Lado-das-compras {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+#upgrades-ps {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    margin-top: auto;
+    border: 1px solid black;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.compraveis {
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 0;
+}
+
+.compraveis:hover {
+    color: green;
+}
+
 #LogoDiv {
     width: 200px;
     height: 60px;
@@ -19,4 +64,8 @@
     margin-left: 20px;
     transition: 50ms;
     transform: scale(1.2);
+}
+
+#RESET {
+    background-color: red;
 }
